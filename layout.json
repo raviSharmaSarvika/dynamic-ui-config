@@ -8,10 +8,14 @@
         "justifyContent": "space-between"
       },
       "children": [
-        { "type": "text", "text": "Left Text", "style": { "fontSize": 18 } },
-        { "type": "text", "text": "Right Text", "style": { "fontSize": 18 } }
+        { "type": "text", "text": "Left", "style": { "fontSize": 18 } },
+        { "type": "text", "text": "Right", "style": { "fontSize": 18 } }
       ]
     },
-    { "type": "button", "title": "Tap me", "onPressMsg": "You tapped the button!" }
+    {
+      "type": "button",
+      "title": "Tap Me",
+      "onPressMsg": "You tapped the button!"
+    }
   ]
 }
