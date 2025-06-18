@@ -3,7 +3,7 @@
   "widgets": [
     { "type": "text", "text": "Hello from GitHub!", "size": 20 },
     { "type": "button", "title": "Tap me", "onPressMsg": "You tapped the button!" }
-  ],
+   ],
     "widgets": [
     { "type": "text", "text": "Hello from GitHub!", "size": 20 }
   ]
