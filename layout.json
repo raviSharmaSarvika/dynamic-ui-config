@@ -1,0 +1,7 @@
+{
+  "backgroundColor": "#e0f7fa",
+  "widgets": [
+    { "type": "text", "text": "Hello from GitHub!", "size": 20 },
+    { "type": "button", "title": "Tap me", "onPressMsg": "You tapped the button!" }
+  ]
+}
