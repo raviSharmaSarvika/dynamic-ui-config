@@ -1,21 +1,45 @@
 {
-  "backgroundColor": "#e0f7fa",
-  "widgets": [
+  "type": "scrollview",
+  "style": { "padding": 10 },
+  "children": [
     {
       "type": "view",
-      "style": {
-        "flexDirection": "row",
-        "justifyContent": "space-between"
-      },
+      "style": { "marginBottom": 20 },
       "children": [
-        { "type": "text", "text": "Left", "style": { "fontSize": 18 } },
-        { "type": "text", "text": "Right", "style": { "fontSize": 18 } }
+        { "type": "text", "text": "Your Badges", "style": { "fontSize": 18, "fontWeight": "bold" } },
+        { "type": "image", "source": "badgesList", "style": { "resizeMode": "contain", "width": 300 } }
       ]
     },
     {
-      "type": "button",
-      "title": "Tap Me",
-      "onPressMsg": "You tapped the button!"
+      "type": "view",
+      "children": [
+        { "type": "text", "text": "Course Includes", "style": { "fontSize": 18, "fontWeight": "bold" } },
+        {
+          "type": "view",
+          "style": { "flexDirection": "row", "flexWrap": "wrap" },
+          "children": [
+            { "type": "chip", "icon": "Pages", "text": "10 Pages" },
+            { "type": "chip", "icon": "Files", "text": "8 Files" },
+            { "type": "chip", "icon": "Links", "text": "2 Links" },
+            { "type": "chip", "icon": "Quize", "text": "2 Quizzes" },
+            { "type": "chip", "icon": "Assignments", "text": "2 Assignments" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "view",
+      "children": [
+        { "type": "text", "text": "Your Instructors", "style": { "fontSize": 18, "fontWeight": "bold" } },
+        {
+          "type": "view",
+          "style": { "flexDirection": "row" },
+          "children": [
+            { "type": "instructor", "name": "Miachle Ross" },
+            { "type": "instructor", "name": "Harvey Specter" }
+          ]
+        }
+      ]
     }
   ]
 }
