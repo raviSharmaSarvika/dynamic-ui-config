@@ -1,45 +1,17 @@
 {
-  "type": "scrollview",
-  "style": { "padding": 10 },
-  "children": [
+  "layout": [
     {
-      "type": "view",
-      "style": { "marginBottom": 20 },
-      "children": [
-        { "type": "text", "text": "Your Badges", "style": { "fontSize": 18, "fontWeight": "bold" } },
-        { "type": "image", "source": "badgesList", "style": { "resizeMode": "contain", "width": 300 } }
-      ]
+      "type": "Text",
+      "props": {
+        "children": "Welcome to My App"
+      }
     },
     {
-      "type": "view",
-      "children": [
-        { "type": "text", "text": "Course Includes", "style": { "fontSize": 18, "fontWeight": "bold" } },
-        {
-          "type": "view",
-          "style": { "flexDirection": "row", "flexWrap": "wrap" },
-          "children": [
-            { "type": "chip", "icon": "Pages", "text": "10 Pages" },
-            { "type": "chip", "icon": "Files", "text": "8 Files" },
-            { "type": "chip", "icon": "Links", "text": "2 Links" },
-            { "type": "chip", "icon": "Quize", "text": "2 Quizzes" },
-            { "type": "chip", "icon": "Assignments", "text": "2 Assignments" }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "view",
-      "children": [
-        { "type": "text", "text": "Your Instructors", "style": { "fontSize": 18, "fontWeight": "bold" } },
-        {
-          "type": "view",
-          "style": { "flexDirection": "row" },
-          "children": [
-            { "type": "instructor", "name": "Miachle Ross" },
-            { "type": "instructor", "name": "Harvey Specter" }
-          ]
-        }
-      ]
+      "type": "Button",
+      "props": {
+        "title": "Press Me",
+        "onPress": "handleClick"
+      }
     }
   ]
 }
