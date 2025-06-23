@@ -1,6 +1,6 @@
 {
   "layout": {
-    "type": "View",
+    "type": "SafeAreaView",
     "props": {
       "style": {
         "flex": 1,
