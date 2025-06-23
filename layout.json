@@ -22,7 +22,7 @@
             {
               "type": "Text",
               "props": {
-                "children": "Welcome to the Dynamic UI!",
+                "children": "New Home!",
                 "style": {
                   "fontSize": 20,
                   "fontWeight": "bold",
